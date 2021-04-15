@@ -60,7 +60,6 @@ function principal() {
         borrarCanvas();
         gravedad();
         colision();
-        dibujarPts();
         dibujaBack();
         logicaBack();
         dibujaJefe();
@@ -68,6 +67,7 @@ function principal() {
         dibujaJefe2();
         logicaJefe(jefe2);
         dibujaPlay();
+        dibujarPts();
     }else{
         gameOver();
     }
